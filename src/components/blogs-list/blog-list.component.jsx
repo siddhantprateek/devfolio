@@ -1,13 +1,19 @@
 
 import './blog-list.styles.css';
 import { BlogCard } from '../blog-card/blog-card.components';
+import Blogs from './blogs.json';
+
 export const BlogList = () => (
     <div className="blog-list-div">
         <div className="blog-list">
-            <BlogCard name='Blog 1'/>
-            <BlogCard name='Blog 2'/>
-            <BlogCard name='Blog 3'/>
-            <BlogCard name='Blog 4'/>
+            {Blogs.map( blog => 
+            <BlogCard 
+                key={blog.id}
+                title={blog.title}
+                details={blog.details}
+                url={blog.url}
+                thumbnail={blog.thumbnail}
+            />)}
         </div>
         <div className="btn-div">
             <a href="https://siddhantprateek.space/" target="__blank">

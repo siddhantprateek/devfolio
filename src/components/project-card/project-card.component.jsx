@@ -4,16 +4,17 @@ import GITHUB from '../../assets/icons/GITHUB.png';
 export const ProjectCard = (props) => (
     <div className="project-card">
         <div className="thumbnail">
-
+            <img src={props.thumbnail} height="180px" width="100%"alt="" />
         </div>
-        <h1>{props.name}</h1>
+        <h2>{props.project_name}</h2>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Tortor ullamcorper ridiculus blandit lectus. 
+            {props.details}
         </p>
 
         <div className="github-icon-div">
-            <img className="github-icon" src={GITHUB} alt="source-code" />
+            <a href={props.url}>
+                <img className="github-icon" src={GITHUB} alt="source-code" />
+            </a>
         </div>
     </div>
 );

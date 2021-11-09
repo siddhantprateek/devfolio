@@ -1,17 +1,25 @@
 import './project-list.style.css';
 import { ProjectCard } from '../project-card/project-card.component';
+import Projects  from './projects.json';
 export const ProjectList = () =>(
     <div className="project-list-div">
         <div className="project-list">
-            <ProjectCard name="project 1"/>
-            <ProjectCard name="project 2"/>
-            <ProjectCard name="project 3"/>
-            <ProjectCard name="project 4"/>
+            { Projects.map(project => 
+                <ProjectCard 
+                key={project.id} 
+                project_name={project.project_name} 
+                details={project.details}
+                url={project.url}
+                thumbnail={project.thumbnail}
+            />
+            )}
         </div>
         <div className="btn-div">
-        <a href="https://github.com/siddhantprateek" target="__blank">
-            <button className="learnMore-btn">LEARN MORE.</button>
-        </a>
+
+            <a href="https://github.com/siddhantprateek" target="__blank">
+                <button className="learnMore-btn">LEARN MORE.</button>
+            </a>
+
         </div>
     </div>
 );

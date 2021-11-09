@@ -3,24 +3,28 @@
         "id": 1,
         "project_name": "Cryptocurrency Tracker",
         "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor ullamcorper ridiculus blandit lectus.",
-        "url": "https://github.com/siddhantprateek/Cryptocurrency-Tracker"
+        "url": "https://github.com/siddhantprateek/Cryptocurrency-Tracker",
+        "thumbnail":"https://camo.githubusercontent.com/4043825ebc962ade50aabffc790c0a09a37b2c3151631229a1c5aff041ec3c5d/68747470733a2f2f692e696d6775722e636f6d2f706e543161746a2e706e67"
     },
     {
         "id": 2,
         "project_name": "Arch Vote",
         "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor ullamcorper ridiculus blandit lectus.",
-        "url": "https://github.com/siddhantprateek/archvote"
+        "url": "https://github.com/siddhantprateek/archvote",
+        "thumbnail":"https://camo.githubusercontent.com/fa4427b7dcb693a3dc00511fac32b2b22afe9527d75f6ae59772c95fa1811784/68747470733a2f2f692e696d6775722e636f6d2f716d766d577a422e706e67"
     },
     {
         "id": 3,
         "project_name": "Call 4 Help",
         "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor ullamcorper ridiculus blandit lectus.",
-        "url": "https://github.com/siddhantprateek/call4help"
+        "url": "https://github.com/siddhantprateek/call4help",
+        "thumbnail":"https://user-images.githubusercontent.com/43869046/124286981-22ff3180-db6d-11eb-8cef-c8a2ff638b12.png"
     },
     {
         "id": 4,
         "project_name": "Klimate",
         "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor ullamcorper ridiculus blandit lectus.",
-        "url": "https://github.com/siddhantprateek/klimate"
+        "url": "https://github.com/siddhantprateek/klimate",
+        "thumbnail":"https://camo.githubusercontent.com/6237fb2bbf482decbb3258825c52b918706b84b5fc3cdfd25351a620fc5dc75a/68747470733a2f2f692e696d6775722e636f6d2f6c7552476d4e432e706e67"
     }
 ]
