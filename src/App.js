@@ -10,10 +10,10 @@ import { Route, Routes } from 'react-router-dom';
 import React from 'react';
 
 class App extends React.Component {
-  render(){
+  render() {
     return (
       <div className="App">
-        <Header/>
+        <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
@@ -21,7 +21,8 @@ class App extends React.Component {
           <Route exact path="/experience" element={<Experience />} />
           <Route exact path="/blogs" element={<Blogs />} />
         </Routes>
-        <Footer/>
+
+        <Footer />
       </div>
     );
   }
