@@ -1,0 +1,25 @@
+.tech-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 20rem;
+}
+
+.tech-card-content{
+    padding: 10px;
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+
+.tech-card-content:hover{
+    background-color: #f3f3f3;
+}
+
+.tech-card-content p{
+    padding: 0 .2rem;
+    margin: 10px;
+}
+

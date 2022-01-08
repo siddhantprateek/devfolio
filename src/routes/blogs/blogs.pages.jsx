@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BlogList } from '../../components/blogs-list/blog-list.component';
+import BlogList from '../../components/blogs-list/blog-list.component';
 class Blogs extends React.Component{
     render(){
         return(

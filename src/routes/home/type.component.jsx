@@ -7,7 +7,8 @@ class Type extends React.Component {
       const options = {
         strings: strings,
         typeSpeed: 70,
-        backSpeed: 60
+        backSpeed: 60,
+        loop: true
       };
       this.typed = new Typed(this.el, options);
     }

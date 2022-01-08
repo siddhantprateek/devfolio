@@ -10,21 +10,9 @@ class Home extends React.Component{
                     <h1>Siddhant Prateek</h1>
                     <h1>Mahanayak</h1>
                     <Type strings={[
-    	                '<h2>Open Source Enthusiast</h2>',
+    	                '<h2>Open Source Contributor</h2>',
                         '<h2>Cloud Native Enthusiast</h2>',
-                        '<h2>Web Developer</h2>',
-                        '<h2>Open Source Enthusiast</h2>',
-                        '<h2>Cloud Native Enthusiast</h2>',
-                        '<h2>Web Developer</h2>',
-                        '<h2>Open Source Enthusiast</h2>',
-                        '<h2>Cloud Native Enthusiast</h2>',
-                        '<h2>Web Developer</h2>',
-                        '<h2>Open Source Enthusiast</h2>',
-                        '<h2>Cloud Native Enthusiast</h2>',
-                        '<h2>Web Developer</h2>',
-                        '<h2>Open Source Enthusiast</h2>',
-                        '<h2>Cloud Native Enthusiast</h2>',
-                        '<h2>Web Developer</h2>'
+                        '<h2>Full Stack Developer</h2>',
                     ]}/>
                 </div>                
                 <img className="profile-img" src={'https://i.imgur.com/3adsZEe.png'} alt="" />

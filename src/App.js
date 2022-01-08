@@ -1,6 +1,6 @@
 import './App.css';
 import { Header } from './components/header/header.components';
-import { Footer } from './components/footer/footer.components';
+// import { Footer } from './components/footer/footer.components';
 import Home from './routes/home/home.pages';
 import About from './routes/about/about.pages';
 import Projects from './routes/projects/project.pages';
@@ -21,8 +21,6 @@ class App extends React.Component {
           <Route exact path="/experience" element={<Experience />} />
           <Route exact path="/blogs" element={<Blogs />} />
         </Routes>
-
-        <Footer />
       </div>
     );
   }
