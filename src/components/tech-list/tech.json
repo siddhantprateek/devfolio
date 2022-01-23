@@ -63,5 +63,20 @@
     "id": "13",
     "techname": "Graph QL",
     "link": "https://i.imgur.com/LRBeuj9.png"
+  },
+  {
+    "id": "14",
+    "techname": "Terraform",
+    "link": "https://img.icons8.com/color/50/000000/terraform.png"
+  },
+  {
+    "id": "15",
+    "techname": "AWS Cloud Services",
+    "link": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+  },
+  {
+    "id": "16",
+    "techname": "Python",
+    "link": "https://img.icons8.com/color/48/000000/python--v1.png"
   }
 ]
