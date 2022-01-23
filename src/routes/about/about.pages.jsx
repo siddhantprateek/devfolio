@@ -27,9 +27,6 @@ class About extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="gif-img">
-                        <img class="side-animation-gif" src="https://i.imgur.com/SHLwtxC.gif"  alt=""/>
-                    </div>
                     <div className="tech">
                         <h1>Tech Stack</h1>
                         <p>I'm familiar with</p>
