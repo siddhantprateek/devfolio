@@ -15,7 +15,7 @@ class Home extends React.Component{
                         '<h2>Full Stack Developer</h2>',
                     ]}/>
                 </div>                
-                <img className="profile-img" src={'https://i.imgur.com/3adsZEe.png'} alt="" />
+                <img className="profile-img" src={'https://i.imgur.com/Zk8Uwfo.png'} alt="" />
             </div>
         )
     }

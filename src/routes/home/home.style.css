@@ -60,23 +60,29 @@
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
 }
-
+.home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
 .home img{
-    position: absolute;
-    top: 0;
-    margin-left: 35%;
-    width: 65%;
-    height: 100%;
-    z-index: -1;
+    /* position: absolute; */
+    margin-top: 4rem;
+    margin-left: 15%;
+    height: 600px;
+    animation: transitionIn 1s;
+    /* z-index: -1; */
 }
 
 @media only screen and (max-width: 600px) {
     .home img{
-        position: absolute;
-        top: 0;
-        width: 0px;
-        height: auto;
-        z-index: -1;
+        height: 400px;
+    }
+    .content {
+        margin-top: 2rem;
+    }
+    .content h1 {
+        font-size: 2.5rem;
     }
 }
 
