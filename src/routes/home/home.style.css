@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
-
+:root{
+    font-size: 15px;
+}
 @keyframes transition {
     from {
         opacity: 0;
@@ -11,24 +13,27 @@
         transform: translateX(0);
     }
 }
+.home span {
+    font-size: 1.8rem;
+    color: grey !important;
+}
 
-
-.content {
+.home {
     display: flex;
-    flex-direction: column;
-    margin-top: 300px;
-    margin-left: 10%;
-    animation: transition 1s;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin-top: 5vh;
+    padding: 4rem;
 }
-
-.content h1 {
-    margin: -10px 0;
-    font-size: 3.5rem;
-    font-weight: 900;
+.home h3 {
+    font-size: 1.8rem;
+    color: rgb(56, 56, 56);
 }
-
-.content h1:nth-child(2) {
-    background-color: red;
+.home h1{
+    font-size: 2.8rem;
+    line-height: 3rem;
+    margin-top: -2rem;
     background-image: linear-gradient(45deg, #0CC8DC, #0029FF);
     background-size: 100%;
     background-repeat: repeat;
@@ -38,20 +43,10 @@
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
 }
-.content h1:nth-child(3) {
-    background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #0CC8DC, #0029FF);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-}
-
-.content h2 {
-    margin-top: -5px;
-    font-size: 2rem;
-    background-color: red;
+.home h2{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin-top: -1rem;
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
     background-size: 100%;
     background-repeat: repeat;
@@ -60,29 +55,21 @@
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
 }
-.home {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
+.content{
+    width: 40rem;
+    padding: 2rem;
+    animation: transition 1s;
 }
-.home img{
-    /* position: absolute; */
-    margin-top: 4rem;
-    margin-left: 15%;
-    height: 600px;
+
+.pro-div{
+    margin-left: 2rem;
+    padding: 2rem;
     animation: transitionIn 1s;
-    /* z-index: -1; */
+}
+.profile-img{
+    height: 25rem;
 }
 
-@media only screen and (max-width: 600px) {
-    .home img{
-        height: 400px;
-    }
-    .content {
-        margin-top: 2rem;
-    }
-    .content h1 {
-        font-size: 2.5rem;
-    }
+.typer{
+    height: 5rem;
 }
-

@@ -6,16 +6,22 @@ class Home extends React.Component{
         return(
             <div className="home">
                 <div className="content">
-                    <h1 className="">Hello, my name is</h1>
-                    <h1>Siddhant Prateek</h1>
-                    <h1>Mahanayak</h1>
-                    <Type strings={[
-    	                '<h2>Open Source Contributor</h2>',
-                        '<h2>Cloud Native Enthusiast</h2>',
-                        '<h2>Full Stack Developer</h2>',
-                    ]}/>
+                    <h3>Hello, my name is</h3>
+                    <h1 className="">Siddhant Prateek <br />Mahanayak</h1>
+                    {/* <h1>Siddhant Prateek</h1> */}
+                    {/* <h1>Mahanayak</h1> */}
+                    <div className='typer'>
+                        <Type strings={[
+                            '<h2>Open Source Developer</h2>',
+                            '<h2>Cloud Native Enthusiast</h2>',
+                            '<h2>Full Stack Developer</h2>',
+                            '<h2>Tech Writer</h2>'
+                        ]}/>
+                    </div>
+                </div>
+                <div className="pro-div">    
+                    <img className="profile-img" src={'https://i.imgur.com/Zk8Uwfo.png'} alt="" />
                 </div>                
-                <img className="profile-img" src={'https://i.imgur.com/Zk8Uwfo.png'} alt="" />
             </div>
         )
     }
