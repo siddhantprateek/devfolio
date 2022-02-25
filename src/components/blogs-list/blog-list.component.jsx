@@ -5,11 +5,7 @@ import Blogs from "./blogs.json";
 
 export default function BlogList(){
   return (
-    <div
-      animate={{ x: 100 }}
-      transition={{ type: "spring", stiffness: 100 }}
-      className="blog-list-div"
-    >
+    <div>
       <div className="blog-list">
         {Blogs.map((blog) => (
           <BlogCard
