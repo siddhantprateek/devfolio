@@ -11,7 +11,7 @@
         "project_name": "Arch Vote",
         "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor ullamcorper ridiculus blandit lectus.",
         "url": "https://github.com/siddhantprateek/archvote",
-        "thumbnail":"https://camo.githubusercontent.com/fa4427b7dcb693a3dc00511fac32b2b22afe9527d75f6ae59772c95fa1811784/68747470733a2f2f692e696d6775722e636f6d2f716d766d577a422e706e67"
+        "thumbnail":"https://i.imgur.com/p2QutBL.png"
     },
     {
         "id": 3,
@@ -39,6 +39,6 @@
         "project_name": "Rteact",
         "details": "A rating system to rate and review teacher, place to know and learn from best teachers.",
         "url": "https://github.com/siddhantprateek/rteach",
-        "thumbnail":"https://i.imgur.com/p2QutBL.png"
+        "thumbnail":"https://camo.githubusercontent.com/fec0beea549d4b188ae1118443370a0b299b3141e73192085fef414d54af63b6/68747470733a2f2f692e696d6775722e636f6d2f6a777a745749432e706e67"
     }
 ]
