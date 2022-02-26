@@ -63,7 +63,7 @@ export const Header = () => (
         </li>
         {/* OPENSOURCE CONTRIBUTIONS */}
         <li>
-					<a target="__blank" href="https://www.linkedin.com/in/siddhantprateek/">
+					<a target="__blank" href="https://githubmemory.com/@siddhantprateek">
 						<img src={'https://img.icons8.com/material/25/000000/open-source.png'} alt="My Contribution" />
         	</a>
         </li>

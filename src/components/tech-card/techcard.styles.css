@@ -12,7 +12,12 @@
     flex-direction: row;
     cursor: pointer;
 }
-
+.tech-card-content img{
+    transition: all .4s;
+}
+.tech-card-content img:hover{
+    transform: scale(1.08);
+}
 
 .tech-card-content:hover{
     background-color: #f3f3f3;

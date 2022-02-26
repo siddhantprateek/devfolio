@@ -1,4 +1,4 @@
-.footer {
+.footer-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,6 +8,10 @@
   max-height: fit-content;
 }
 
-.footer *{
-    color: gray;
+.footer-content *{
+  color: gray;
 } 
+.footer{
+
+  margin-top: 10%;
+}

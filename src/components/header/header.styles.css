@@ -17,6 +17,7 @@
   transition: all .5s;
 }
 
+
 .nav-list li:hover {
   background-color: rgb(122, 213, 255);
   border-radius: 5px;
@@ -41,6 +42,13 @@
   margin-left: 2rem;
 }
 
+.icon-list img{
+  transition: all .5s;
+}
+
+.icon-list img:hover{
+  transform: scale(1.08);
+}
 @media only screen and (max-width: 600px) {
   .header-header {
     display: flex;
