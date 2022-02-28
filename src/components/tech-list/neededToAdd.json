@@ -1,0 +1,12 @@
+[
+    {
+        "id": "1",
+        "techname": "Kubernetes",
+        "link": "https://img.icons8.com/color/48/000000/kubernetes.png"
+    },
+    {
+        "id": "14",
+        "techname": "Terraform",
+        "link": "https://img.icons8.com/color/50/000000/terraform.png"
+    }
+]

@@ -1,9 +1,5 @@
 [
-  {
-    "id": "1",
-    "techname": "Kubernetes",
-    "link": "https://img.icons8.com/color/48/000000/kubernetes.png"
-  },
+
   {
     "id": "2",
     "techname": "React",
@@ -65,11 +61,6 @@
     "link": "https://i.imgur.com/LRBeuj9.png"
   },
   {
-    "id": "14",
-    "techname": "Terraform",
-    "link": "https://img.icons8.com/color/50/000000/terraform.png"
-  },
-  {
     "id": "15",
     "techname": "AWS Cloud Services",
     "link": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
@@ -78,5 +69,11 @@
     "id": "16",
     "techname": "Python",
     "link": "https://img.icons8.com/color/48/000000/python--v1.png"
+  },
+  {
+    "id": "17",
+    "techname": "Bash",
+    "link": "https://img.icons8.com/plasticine/48/000000/bash.png"
   }
 ]
+

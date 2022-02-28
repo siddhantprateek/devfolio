@@ -13,10 +13,10 @@
     cursor: pointer;
 }
 .tech-card-content img{
-    transition: all .4s;
+    transition: all .5s;
 }
 .tech-card-content img:hover{
-    transform: scale(1.08);
+    transform: scale(1.2);
 }
 
 .tech-card-content:hover{
