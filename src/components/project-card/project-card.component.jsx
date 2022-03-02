@@ -1,5 +1,5 @@
 import './project-card.styles.css';
-import GITHUB from '../../assets/icons/GITHUB.png';
+import GITHUB from '../../assets/icons/dark/GITHUB.png';
 
 export const ProjectCard = (props) => (
     <div className="project-card">

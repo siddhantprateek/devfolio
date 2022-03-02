@@ -19,6 +19,10 @@
     animation: transitionProjectCard .75s;
 }
 
+.project-list a{
+    text-decoration: none;
+}
+
 @keyframes transitionButton {
     from {
         opacity: 0;
@@ -44,7 +48,7 @@
     font-size: 1.4rem;
     background: none;
     outline: 0;
-    border: 1px solid black;
+    border: 2px solid rgb(82, 82, 82);
     cursor: pointer;
     position: relative;
     background-color: rgba(0, 0, 0, 0);
@@ -52,7 +56,7 @@
 
 .learnMore-btn::after{
     content: "";
-    background-color: #22d1ee;
+    background-color: #76a8b1;
     width: 100%;
     z-index: -1;
     position: absolute;

@@ -1,0 +1,79 @@
+.project-profile{
+    padding: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-banner{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.project-resource{
+    display: flex;
+    width: 50%;
+}
+
+.link-to{
+    width: 50%;
+}
+.tech-stack-div{
+    width: 50%;
+}
+
+.techused{
+    height: 2rem;
+    width: 45%;
+    background-color: rgba(156, 156, 156, 0.226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.techused:hover{
+    background-color: rgba(156, 156, 156, 0.322);
+
+}
+
+.tools-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.github-link{
+    width: 90%;
+    height: 2.5rem;
+    background-color: rgb(58, 58, 58);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    
+
+}
+.github-link p{
+    color: rgb(78, 209, 176);
+}
+
+.github-link:hover{
+    background-color: rgba(88, 88, 88, 0.87);
+
+}
+
+.link-to a{
+    text-decoration: none;
+}
+
+.project-contents{
+    margin-top: 2rem;
+    width: 50%;
+}

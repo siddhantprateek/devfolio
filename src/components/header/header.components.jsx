@@ -1,11 +1,12 @@
 import "./header.styles.css";
-import GITHUB from "../../assets/icons/GITHUB.png";
-import LINKEDIN from "../../assets/icons/LINKEDIN.png";
-import INSTAGRAM from "../../assets/icons/INSTA.png";
-import TWITCH from "../../assets/icons/TWITCH.png";
-import YOUTUBE from "../../assets/icons/YT.png";
-import TWITTER from "../../assets/icons/Twitter.png";
-// import CONTRIBUTIONS from "../../assets/icons/Opensource.png";
+import GITHUB from "../../assets/icons/dark/GITHUB.png";
+import LINKEDIN from "../../assets/icons/dark/LINKEDIN.png";
+import INSTAGRAM from "../../assets/icons/dark/INSTA.png";
+import TWITCH from "../../assets/icons/dark/TWITCH.png";
+import YOUTUBE from "../../assets/icons/dark/YT.png";
+import TWITTER from "../../assets/icons/dark/Twitter.png";
+import OpenSource from "../../assets/icons/dark/Opensource.png";
+
 import { Link } from "react-router-dom";
 
 export const Header = () => (
@@ -64,7 +65,7 @@ export const Header = () => (
         {/* OPENSOURCE CONTRIBUTIONS */}
         <li>
 					<a target="__blank" href="https://githubmemory.com/@siddhantprateek">
-						<img src={'https://img.icons8.com/material/25/000000/open-source.png'} alt="My Contribution" />
+						<img src={OpenSource} alt="My Contribution" />
         	</a>
         </li>
       </ul>

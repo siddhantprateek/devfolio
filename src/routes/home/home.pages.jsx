@@ -1,6 +1,7 @@
 import './home.style.css'
 import React from 'react';
 import Type from './type.component';
+import PROFILE from "../../assets/icons/PRO.png";
 class Home extends React.Component{
     render(){
         const resumeURL= "https://docs.google.com/document/d/13OwvkH2RvZ9OuUQtTUhRrhEXnq6C5CPRPepkrmUmIz8/edit#heading=h.5x0d5h95i329"
@@ -9,14 +10,13 @@ class Home extends React.Component{
                 <div className="content">
                     <h3>Hello, my name is</h3>
                     <h1 className="">Siddhant Prateek <br />Mahanayak</h1>
-                    {/* <h1>Siddhant Prateek</h1> */}
-                    {/* <h1>Mahanayak</h1> */}
                     <div className='typer'>
                         <Type strings={[
                             '<h2>Open Source Developer</h2>',
                             '<h2>Cloud Native Enthusiast</h2>',
                             '<h2>Full Stack Developer</h2>',
-                            '<h2>Tech Writer</h2>'
+                            '<h2>Technical Writer</h2>',
+                            '<h2>Blockchain Enthusiast</h2>'
                         ]}/>
                     </div>
                     <a href={resumeURL} target="__blank">
@@ -29,7 +29,7 @@ class Home extends React.Component{
                     </a>
                 </div>
                 <div className="pro-div">    
-                    <img className="profile-img" src={'https://i.imgur.com/Zk8Uwfo.png'} alt="" />
+                    <img className="profile-img" src={PROFILE} alt="" />
                 </div>                
             </div>
         )

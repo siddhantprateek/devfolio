@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.styles.css';
-import UNILOGO from '../../assets/icons/instituteIcon.png'
+import UNILOGO from '../../assets/icons/dark/instituteIcon.png'
 import TechList from '../../components/tech-list/techlist.component';
 class About extends React.Component {
     render() {

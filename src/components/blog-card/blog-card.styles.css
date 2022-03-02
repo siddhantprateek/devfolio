@@ -11,7 +11,7 @@
 
 .blog-card{
     padding: 10px 20px;
-    background-color: #ffffff;
+    background-color: --dark-mode;
     border-radius: 10px;
     margin:20px 1rem;
     width: 300px;
@@ -34,11 +34,14 @@
     margin-top: -10px;
 }
 
-.blog-thumbnaill{
+.blog-thumbnail{
     margin-top: 20px;
     width: 100%;
-    height: 250px;
-    background-color: white;
+    
+    /* background-color: white; */
+}
+.blog-thumbnail img {
+    border-radius: 10px;
 }
 @media only screen and (max-width: 600px) {
     .blog-card{

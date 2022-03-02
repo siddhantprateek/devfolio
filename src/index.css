@@ -5,7 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark-background);
+  
+  
 }
+
+*{
+  color: var(--dark-font-color);
+}
+
+
+:root{
+  --light-font-color: black;
+  --dark-font-color: rgb(214, 214, 214);
+  --light-background: rgb(255, 255, 255);
+  --dark-background: rgb(28, 33, 34);
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
