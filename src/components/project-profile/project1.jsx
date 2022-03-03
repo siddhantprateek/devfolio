@@ -38,7 +38,7 @@ function Project1({ project }) {
 
         <div className="tech-stack-div">
           <h1>Tools & Technologies</h1>
-          <p>Tech stack I used.</p>
+          <p className="techsiu">Tech stack I used.</p>
           <div className="tools-list">
             {Tech.map((tech) => (
               <Techused tech={tech} />

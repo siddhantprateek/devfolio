@@ -30,9 +30,10 @@
 }
 .tech-stack-div{
     width: 30rem;
-
 }
-
+.techsiu{
+    margin-top: -1.5rem;
+}
 /* Tech container */
 .techused{
     height: 2rem;
