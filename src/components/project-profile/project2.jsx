@@ -1,22 +1,23 @@
 import React from "react";
-import './projectprofile.styles.css';
+import "./projectprofile.styles.css";
 import Techused from "./Techused";
 const Tech = ["React", "Rest API", "NodeJs", "ExpressJs", "Auth0"];
 
 function Project2({ project }) {
   return (
     <div className="project-profile">
+      {/* Header and Images */}
       <div className="project-container">
         <h1>{project.project_name}</h1>
-        <div className="project-banner">
-          <img src={project.thumbnail} height="550rem" alt="" />
-        </div>
-      </div>
-
-        <div className="project-contents">
+        {/* Contents */}
         <p>{project.details}</p>
-
+        {/* Image Container */}
+        <div className="project-banner">
+          <img src={project.thumbnail} alt="" />
         </div>
+        <div className="project-contents"></div>
+      </div>
+      {/* Tech and Links */}
       <div className="project-resource">
         <div className="link-to">
           <h1>Link</h1>
@@ -25,7 +26,6 @@ function Project2({ project }) {
               <p>siddhantprateek/archvote</p>
             </div>
           </a>
-            
         </div>
 
         <div className="tech-stack-div">

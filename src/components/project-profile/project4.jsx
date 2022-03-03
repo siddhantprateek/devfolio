@@ -1,5 +1,5 @@
 import React from "react";
-import './projectprofile.styles.css';
+import "./projectprofile.styles.css";
 import Techused from "./Techused";
 
 const Tech = ["Ruby", "Rails", "PostgresQL"];
@@ -7,16 +7,18 @@ const Tech = ["Ruby", "Rails", "PostgresQL"];
 function Project4({ project }) {
   return (
     <div className="project-profile">
+      {/* Header and Images */}
       <div className="project-container">
         <h1>{project.project_name}</h1>
+        {/* Contents */}
+        <p>{project.details}</p>
+        {/* Image Container */}
         <div className="project-banner">
-          <img src={project.thumbnail} height="550rem" alt="" />
+          <img src={project.thumbnail} alt="" />
         </div>
+        <div className="project-contents"></div>
       </div>
-
-        <div className="project-contents">
-          <p>{project.details}</p>
-        </div>
+      {/* Tech and Links */}
       <div className="project-resource">
         <div className="link-to">
           <h1>Link</h1>
@@ -25,7 +27,6 @@ function Project4({ project }) {
               <p>siddhantprateek/klimate</p>
             </div>
           </a>
-            
         </div>
 
         <div className="tech-stack-div">
