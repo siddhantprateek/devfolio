@@ -23,7 +23,20 @@ function Project6({ project }) {
         <div className="project-banner">
           <img src={project.thumbnail} alt="" />
         </div>
-        <div className="project-contents"></div>
+      </div>
+
+      <div className="project-banner">
+        <video className="video" autoPlay loop muted>
+            <source src={`https://user-images.githubusercontent.com/43869046/156356835-ce86d515-903b-49ee-94c1-1de93a2b955e.mp4`} type="video/mp4"/>
+        </video>
+      </div>
+      
+      <div className="project-banner">
+        <img src={`https://i.imgur.com/0e6mkiC.png`} alt="" />
+      </div>
+    
+      <div className="project-banner">
+        <img src={`https://i.imgur.com/rOJBnIu.png`} alt="" />
       </div>
       {/* Tech and Links */}
       <div className="project-resource">
@@ -34,6 +47,12 @@ function Project6({ project }) {
               <p>siddhantprateek/rteach</p>
             </div>
           </a>
+          <a href={`${project.url}/issues`} target="__blank">
+            <div className="github-link">
+              <p>Contribute / Open Issues</p>
+            </div>
+          </a>
+    
         </div>
 
         <div className="tech-stack-div">

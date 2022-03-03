@@ -35,7 +35,7 @@
         "id": 5,
         "project_name": "Netflux",
         "route": "project5",
-        "details": "Netflux: This is a Neftlix Clone, made using React, Rest API.",
+        "details": "Netflux, It is a Neftlix Clone, made using React, Rest API. ",
         "url": "https://github.com/siddhantprateek/netflux",
         "thumbnail":"https://i.imgur.com/wOVQkYE.png"
     },
@@ -45,6 +45,6 @@
         "route": "project6",
         "details": "A rating system to rate and review teacher, place to know and learn from best teachers.",
         "url": "https://github.com/siddhantprateek/rteach",
-        "thumbnail":"https://camo.githubusercontent.com/fec0beea549d4b188ae1118443370a0b299b3141e73192085fef414d54af63b6/68747470733a2f2f692e696d6775722e636f6d2f6a777a745749432e706e67"
+        "thumbnail":"https://i.imgur.com/koFLm1y.png"
     }
 ]

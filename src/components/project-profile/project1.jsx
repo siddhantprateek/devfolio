@@ -21,9 +21,7 @@ function Project1({ project }) {
         <div className="project-banner">
           <img src={project.thumbnail} alt="" />
         </div>
-        <div className="project-contents">
-          
-        </div>
+        
       </div>
       {/* Tech and Links */}
       <div className="project-resource">
@@ -32,6 +30,11 @@ function Project1({ project }) {
           <a href={project.url} target="__blank">
             <div className="github-link">
               <p>siddhantprateek/Cryptocurrency-Tracker</p>
+            </div>
+          </a>
+          <a href={`${project.url}/issues`} target="__blank">
+            <div className="github-link">
+              <p>Contribute / Open Issues</p>
             </div>
           </a>
         </div>
