@@ -1,7 +1,6 @@
 import './home.style.css'
 import React from 'react';
 import Type from './type.component';
-import PROFILE from "../../assets/icons/PRO.png";
 class Home extends React.Component{
     render(){
         const resumeURL= "https://docs.google.com/document/d/13OwvkH2RvZ9OuUQtTUhRrhEXnq6C5CPRPepkrmUmIz8/edit#heading=h.5x0d5h95i329"
@@ -29,7 +28,7 @@ class Home extends React.Component{
                     </a>
                 </div>
                 <div className="pro-div">    
-                    <img className="profile-img" src={PROFILE} alt="" />
+                    <img className="profile-img" src={`https://github.com/siddhantprateek/devfolio/blob/master/src/assets/icons/PRO.png?raw=true`} alt="" />
                 </div>                
             </div>
         )
