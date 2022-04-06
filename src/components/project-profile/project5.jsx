@@ -12,17 +12,17 @@ const Tech = [
   "GraphQL",
 ];
 
-function Project5({ project }) {
+function Project5(props) {
   return (
     <div className="project-profile">
       {/* Header and Images */}
       <div className="project-container">
-        <h1>{project.project_name}</h1>
+        <h1>{props.project_name}</h1>
         {/* Contents */}
-        <p>{project.details}</p>
+        <p>{props.details}</p>
         {/* Image Container */}
         <div className="project-banner">
-          <img src={project.thumbnail} alt="" />
+          <img src={props.thumbnail} alt="" />
         </div>
       </div>
 
@@ -34,7 +34,7 @@ function Project5({ project }) {
 
       <div className="project-banner">
         <video className="video" autoPlay loop muted>
-            <source src={`https://user-images.githubusercontent.com/43869046/154530537-1a3d8696-cb2f-4a8d-8e9b-3ae67879967b.mp4`} type="video/mp4"/>
+            <source src={`https://user-images.githubusercontent.com/43869046/161914746-617b6157-dc51-4b2c-8813-f7ec4cb2fa7d.mp4`} type="video/mp4"/>
         </video>
       </div>
 
@@ -42,12 +42,12 @@ function Project5({ project }) {
       <div className="project-resource">
         <div className="link-to">
           <h1>Link</h1>
-          <a href={project.url} target="__blank">
+          <a href={props.url} target="__blank">
             <div className="github-link">
               <p>siddhantprateek/netflux</p>
             </div>
           </a>
-          <a href={`${project.url}/issues`} target="__blank">
+          <a href={`${props.url}/issues`} target="__blank">
             <div className="github-link">
               <p>Contribute / Open Issues</p>
             </div>

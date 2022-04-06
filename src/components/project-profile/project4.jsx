@@ -4,17 +4,17 @@ import Techused from "./Techused";
 
 const Tech = ["Ruby", "Rails", "PostgresQL"];
 
-function Project4({ project }) {
+function Project4(props) {
   return (
     <div className="project-profile">
       {/* Header and Images */}
       <div className="project-container">
-        <h1>{project.project_name}</h1>
+        <h1>{props.project_name}</h1>
         {/* Contents */}
-        <p>{project.details}</p>
+        <p>{props.details}</p>
         {/* Image Container */}
         <div className="project-banner">
-          <img src={project.thumbnail} alt="" />
+          <img src={props.thumbnail} alt="" />
         </div>
    
       </div>
@@ -22,12 +22,12 @@ function Project4({ project }) {
       <div className="project-resource">
         <div className="link-to">
           <h1>Link</h1>
-          <a href={project.url}>
+          <a href={props.url}>
             <div className="github-link" target="__blank">
               <p>siddhantprateek/klimate</p>
             </div>
           </a>
-          <a href={`${project.url}/issues`} target="__blank">
+          <a href={`${props.url}/issues`} target="__blank">
             <div className="github-link">
               <p>Contribute / Open Issues</p>
             </div>

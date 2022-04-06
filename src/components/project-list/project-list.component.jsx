@@ -1,11 +1,12 @@
 import './project-list.style.css';
 import { ProjectCard } from '../project-card/project-card.component';
 import Projects from '../projects.json';
+import { Link } from 'react-router-dom';
 export const ProjectList = () => (
   <div className="project-list-div">
     <div className="project-list">
       {Projects.map((project) => (
-        <a href={`/projects/${project.route}`}>
+        <Link to={`/projects/${project.route}`}>
             <ProjectCard
               key={project.id}
               project_name={project.project_name}
@@ -13,7 +14,7 @@ export const ProjectList = () => (
               url={project.url}
               thumbnail={project.thumbnail}
             />
-        </a>
+        </Link>
       ))}
     </div>
     <div className="btn-div">

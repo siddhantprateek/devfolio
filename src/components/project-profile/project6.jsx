@@ -11,17 +11,17 @@ const Tech = [
   "Calendly API",
 ];
 
-function Project6({ project }) {
+function Project6(props) {
   return (
     <div className="project-profile">
       {/* Header and Images */}
       <div className="project-container">
-        <h1>{project.project_name}</h1>
+        <h1>{props.project_name}</h1>
         {/* Contents */}
-        <p>{project.details}</p>
+        <p>{props.details}</p>
         {/* Image Container */}
         <div className="project-banner">
-          <img src={project.thumbnail} alt="" />
+          <img src={props.thumbnail} alt="" />
         </div>
       </div>
 
@@ -42,12 +42,12 @@ function Project6({ project }) {
       <div className="project-resource">
         <div className="link-to">
           <h1>Link</h1>
-          <a href={project.url} target="__blank">
+          <a href={props.url} target="__blank">
             <div className="github-link">
               <p>siddhantprateek/rteach</p>
             </div>
           </a>
-          <a href={`${project.url}/issues`} target="__blank">
+          <a href={`${props.url}/issues`} target="__blank">
             <div className="github-link">
               <p>Contribute / Open Issues</p>
             </div>
