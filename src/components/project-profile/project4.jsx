@@ -2,7 +2,7 @@ import React from "react";
 import "./projectprofile.styles.css";
 import Techused from "./Techused";
 
-const Tech = ["Ruby", "Rails", "PostgresQL"];
+
 
 function Project4(props) {
   return (
@@ -38,7 +38,7 @@ function Project4(props) {
           <h1>Tools & Technologies</h1>
           <p className="techsiu">Tech stack I used.</p>
           <div className="tools-list">
-            {Tech.map((tech) => (
+            {props.techlist.map((tech) => (
               <Techused tech={tech} />
             ))}
           </div>

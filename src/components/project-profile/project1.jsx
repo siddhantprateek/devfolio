@@ -1,14 +1,7 @@
 import React from "react";
 import "./projectprofile.styles.css";
 import Techused from "./Techused";
-const Tech = [
-  "React",
-  "Rest API",
-  "NodeJs",
-  "ExpressJs",
-  "CoinGecko API",
-  "Crypto News Live API",
-];
+
 function Project1(props) {
   return (
     <div className="project-profile">
@@ -43,7 +36,7 @@ function Project1(props) {
           <h1>Tools & Technologies</h1>
           <p className="techsiu">Tech stack I used.</p>
           <div className="tools-list">
-            {Tech.map((tech) => (
+            {props.techlist.map((tech) => (
               <Techused tech={tech} />
             ))}
           </div>

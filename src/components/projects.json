@@ -1,50 +1,79 @@
 [
-    {
-        "id": 1,
-        "route": "project1",
-        "project_name": "Cryptocurrency Tracker",
-        "details": "This web application helps track the trends of cryptocurrency and updates every hour, and provides a news feed.",
-        "url": "https://github.com/siddhantprateek/Cryptocurrency-Tracker",
-        "thumbnail":"https://camo.githubusercontent.com/77933936f0d7eee2eb706f04b5c3f1284517366aa95b864a2c364b71f9cbf5db/68747470733a2f2f692e696d6775722e636f6d2f557859576a69552e706e67"
-    },
-    {
-        "id": 2,
-        "project_name": "Arch Vote",
-        "route": "project2",
-        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor ullamcorper ridiculus blandit lectus.",
-        "url": "https://github.com/siddhantprateek/archvote",
-        "thumbnail":"https://i.imgur.com/p2QutBL.png"
-    },
-    {
-        "id": 3,
-        "project_name": "Call 4 Help",
-        "route": "project3",
-        "details": "This project is a for building the community more interactive and approachable, The main motive for this project is get help and support from others easily.",
-        "url": "https://github.com/siddhantprateek/call4help",
-        "thumbnail":"https://user-images.githubusercontent.com/43869046/124286981-22ff3180-db6d-11eb-8cef-c8a2ff638b12.png"
-    },
-    {
-        "id": 4,
-        "project_name": "Klimate",
-        "route": "project4",
-        "details": "This web application gives support to the people who are in need during the climate crisis. Providing valuable survival suggestions.",
-        "url": "https://github.com/siddhantprateek/klimate",
-        "thumbnail":"https://camo.githubusercontent.com/6237fb2bbf482decbb3258825c52b918706b84b5fc3cdfd25351a620fc5dc75a/68747470733a2f2f692e696d6775722e636f6d2f6c7552476d4e432e706e67"
-    },
-    {
-        "id": 5,
-        "project_name": "Netflux",
-        "route": "project5",
-        "details": "Netflux, It is a Neftlix Clone, made using React, Rest API. ",
-        "url": "https://github.com/siddhantprateek/netflux",
-        "thumbnail":"https://i.imgur.com/wOVQkYE.png"
-    },
-    {
-        "id": 6,
-        "project_name": "Rteach",
-        "route": "project6",
-        "details": "A rating system to rate and review teacher, place to know and learn from best teachers.",
-        "url": "https://github.com/siddhantprateek/rteach",
-        "thumbnail":"https://i.imgur.com/koFLm1y.png"
-    }
+  {
+    "id": 1,
+    "route": "project1",
+    "project_name": "Cryptocurrency Tracker",
+    "details": "This web application helps track the trends of cryptocurrency and updates every hour, and provides a news feed.",
+    "url": "https://github.com/siddhantprateek/Cryptocurrency-Tracker",
+    "thumbnail": "https://camo.githubusercontent.com/77933936f0d7eee2eb706f04b5c3f1284517366aa95b864a2c364b71f9cbf5db/68747470733a2f2f692e696d6775722e636f6d2f557859576a69552e706e67",
+    "techlist": [
+      "React",
+      "Rest API",
+      "NodeJs",
+      "ExpressJs",
+      "CoinGecko API",
+      "Crypto News Live API"
+    ]
+  },
+  {
+    "id": 2,
+    "project_name": "Arch Vote",
+    "route": "project2",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor ullamcorper ridiculus blandit lectus.",
+    "url": "https://github.com/siddhantprateek/archvote",
+    "thumbnail": "https://i.imgur.com/p2QutBL.png",
+    "techlist": ["React", "Rest API", "NodeJs", "ExpressJs", "Auth0"]
+  },
+  {
+    "id": 3,
+    "project_name": "Call 4 Help",
+    "route": "project3",
+    "details": "This project is a for building the community more interactive and approachable, The main motive for this project is get help and support from others easily.",
+    "url": "https://github.com/siddhantprateek/call4help",
+    "thumbnail": "https://user-images.githubusercontent.com/43869046/124286981-22ff3180-db6d-11eb-8cef-c8a2ff638b12.png",
+    "techlist": ["React", "Rest API", "NodeJs", "ExpressJs"]
+  },
+  {
+    "id": 4,
+    "project_name": "Klimate",
+    "route": "project4",
+    "details": "This web application gives support to the people who are in need during the climate crisis. Providing valuable survival suggestions.",
+    "url": "https://github.com/siddhantprateek/klimate",
+    "thumbnail": "https://camo.githubusercontent.com/6237fb2bbf482decbb3258825c52b918706b84b5fc3cdfd25351a620fc5dc75a/68747470733a2f2f692e696d6775722e636f6d2f6c7552476d4e432e706e67",
+    "techlist": ["Ruby", "Rails", "PostgresQL"]
+},
+  {
+    "id": 5,
+    "project_name": "Netflux",
+    "route": "project5",
+    "details": "Netflux, It is a Neftlix Clone, made using React, Rest API. ",
+    "url": "https://github.com/siddhantprateek/netflux",
+    "thumbnail": "https://i.imgur.com/wOVQkYE.png",
+    "techlist": [  "React",
+        "Redux",
+        "Rest API",
+        "NodeJs",
+        "ExpressJs",
+        "Mongoose",
+        "GraphQL",
+        "Firebase"
+      ]
+  },
+  {
+    "id": 6,
+    "project_name": "Rteach",
+    "route": "project6",
+    "details": "A rating system to rate and review teacher, place to know and learn from best teachers.",
+    "url": "https://github.com/siddhantprateek/rteach",
+    "thumbnail": "https://i.imgur.com/koFLm1y.png",
+    "techlist": [
+        "React",
+        "Rest API",
+        "NodeJs",
+        "ExpressJs",
+        "Auth0",
+        "Mongoose",
+        "Calendly API"
+      ]
+  }
 ]
