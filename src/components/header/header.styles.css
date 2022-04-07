@@ -7,12 +7,14 @@
 }
 .nav-list {
   display: flex;
+  justify-content: center;
   text-decoration: none;
   list-style: none;
   padding: 0 2rem;
 }
 .nav-list li {
   margin-left: 2rem;
+  
   height: 1rem;
   transition: all .5s;
 }
@@ -39,9 +41,14 @@
 }
 
 .icon-list li {
-  margin-left: 2rem;
-}
+  margin: 0 .5rem;
+  padding: 1rem;
+  border-radius: 200px;
 
+}
+.icon-list li:hover {
+  background-color: rgba(59, 59, 59, 0.507);
+}
 .icon-list img{
   transition: all .5s;
 }
@@ -50,6 +57,9 @@
   transform: scale(1.08);
 }
 @media only screen and (max-width: 600px) {
+  .nav-list{ 
+    padding: 1rem 2rem;
+  }
   .header-header {
     display: flex;
     margin-left: 0;
