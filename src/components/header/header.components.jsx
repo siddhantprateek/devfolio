@@ -2,7 +2,6 @@ import "./header.styles.css";
 import GITHUB from "../../assets/icons/dark/GITHUB.png";
 import LINKEDIN from "../../assets/icons/dark/LINKEDIN.png";
 import INSTAGRAM from "../../assets/icons/dark/INSTA.png";
-import TWITCH from "../../assets/icons/dark/TWITCH.png";
 import YOUTUBE from "../../assets/icons/dark/YT.png";
 import TWITTER from "../../assets/icons/dark/Twitter.png";
 import OpenSource from "../../assets/icons/dark/Opensource.png";
@@ -32,13 +31,6 @@ export const Header = () => (
         <li>
           <a target="__blank" href="https://www.instagram.com/siddhantprateek/">
             <img src={INSTAGRAM} alt="Instagram" />
-          </a>
-        </li>
-				
-				{/* TWITCH */}
-        <li>
-          <a target="__blank" href="https://www.twitch.tv/siddhant_prateek">
-            <img src={TWITCH} alt="Twitch" />
           </a>
         </li>
 				
