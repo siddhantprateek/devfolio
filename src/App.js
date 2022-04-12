@@ -3,7 +3,7 @@ import { Header } from './components/header/header.components';
 import { Footer } from './components/footer/footer.components';
 import {Home, About, Projects, Experience, Blogs } from './routes';
 
-import { Project1, Project2, Project3, Project4, Project5, Project6 } from './components/project-profile'
+import { Project1, Project2, Project3, Project4, Project5, Project6, Project7 } from './components/project-profile'
 import data from './components/projects.json'
 import { Route, Routes } from 'react-router-dom';
 import React from 'react';
@@ -25,6 +25,7 @@ class App extends React.Component {
           <Route exact path="/projects/project4" element={<Project4 {...data[3]} />} />
           <Route exact path="/projects/project5" element={<Project5 {...data[4]} />} />
           <Route exact path="/projects/project6" element={<Project6 {...data[5]} />} />
+          <Route exact path="/projects/project7" element={<Project7 {...data[6]} />} />
         </Routes>
         <Footer/>
       </div>
