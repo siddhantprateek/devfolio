@@ -9,7 +9,7 @@ export const ProjectCard = (props) => (
         <div className="project-description">
             <h2>{props.project_name}</h2>
             <p className='project-details'>
-                {props.details}
+                {props.details.length <= 150 ? props.details : props.details.slice(0, 150)+"..."}
             </p>
 
             <div className="github-icon-div">
