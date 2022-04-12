@@ -75,5 +75,22 @@
         "Mongoose",
         "Calendly API"
       ]
+  },
+  {
+    "id": 7,
+    "project_name": "Vibee",
+    "route": "project7",
+    "details": "Vibee is a website for social interaction through remote means. Its main idea is to connect with neighbourly people and play games, talk and tell stories, deepen friendships and meet new and interesting people from various areas . Well, this website being an app for connecting the people, provides the people with an opportunity to spend countless hours mostly networking and gaming and plugging their own rooms without any disturbances.",
+    "url": "https://github.com/siddhantprateek/vibee",
+    "thumbnail": "https://i.imgur.com/bt8i6uh.png",
+    "techlist": [
+        "React",
+        "Random Data API",
+        "NodeJs",
+        "ExpressJs",
+        "Auth0",
+        "MongoDB",
+        "Prisma"
+      ]
   }
 ]
