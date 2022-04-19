@@ -12,9 +12,9 @@ class About extends React.Component {
               <h1>About</h1>
               <p>
                 👋 Hi, I'm Siddhant Prateek Mahanayak, currently a junior at
-                Kalinga Institute of Industrial technology pursuing my{" "}
-                <b>Computer Science and Engineering</b> Degree. I'm passionate
-                about Cloud Technology and Blockchain Technology. I'm an
+                Kalinga Institute of Industrial technology pursuing {" "}
+                <b>Computer Science and Engineering</b>. I'm passionate
+                about Cloud and Blockchain Technology. I'm an also
                 open-source enthusiast and love learning from open source
                 communities and giving back the same.
               </p>
