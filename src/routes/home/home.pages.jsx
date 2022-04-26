@@ -3,7 +3,7 @@ import React from 'react';
 import Type from './type.component';
 class Home extends React.Component{
     render(){
-        const resumeURL= "https://docs.google.com/document/d/13OwvkH2RvZ9OuUQtTUhRrhEXnq6C5CPRPepkrmUmIz8/edit#heading=h.5x0d5h95i329"
+        const resumeURL= "https://docs.google.com/document/d/1XRBot1B-ju0PC2xUGKG0vyG4X10mPYAotubUGO99GK0/edit?usp=sharing"
         return(
             <div className="home">
                 <div className="content">
