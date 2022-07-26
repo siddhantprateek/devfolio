@@ -17,21 +17,21 @@
   },
   {
     "id": 2,
-    "project_name": "Arch Vote",
+    "project_name": "The Greate Escape",
     "route": "project2",
-    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor ullamcorper ridiculus blandit lectus.",
-    "url": "https://github.com/siddhantprateek/archvote",
-    "thumbnail": "https://i.imgur.com/p2QutBL.png",
-    "techlist": ["React", "Rest API", "NodeJs", "ExpressJs", "Auth0"]
+    "details": "Great Escape is a travel planner website. It recommends some features which allows to plan every aspect of your trip, from transport and accommodation to booking hotels, spending time in water sports. It shows numerous booking options, price details, and provides you the option to create your own custom-made travel bucket list.",
+    "url": "https://github.com/siddhantprateek/great-escape",
+    "thumbnail": "https://github.com/siddhantprateek/great-escape/raw/main/assets/preview-ge.png",
+    "techlist": ["React", "Rest API", "NodeJs", "ExpressJs", "Auth0", "GraphQL", "MongoDB"]
   },
   {
     "id": 3,
-    "project_name": "Call 4 Help",
+    "project_name": "Celuxe",
     "route": "project3",
-    "details": "This project is a for building the community more interactive and approachable, The main motive for this project is get help and support from others easily.",
-    "url": "https://github.com/siddhantprateek/call4help",
-    "thumbnail": "https://user-images.githubusercontent.com/43869046/124286981-22ff3180-db6d-11eb-8cef-c8a2ff638b12.png",
-    "techlist": ["React", "Rest API", "NodeJs", "ExpressJs"]
+    "details": "Celuxe offers a wide options for the students to avail the resources. It increases SNAP enrollment for eligible students based on the income of household, improves accessibility of nutritious food on campus, raises awareness of the existing campus resources, and many more.",
+    "url": "https://github.com/siddhantprateek/celuxe",
+    "thumbnail": "https://github.com/siddhantprateek/celuxe/raw/main/assets/preview.png",
+    "techlist": ["React", "Rest API", "NodeJs", "ExpressJs", "MongoDB", "Auth0"]
   },
   {
     "id": 4,
