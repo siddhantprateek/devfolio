@@ -23,7 +23,7 @@ function Project2(props) {
           <h1>Link</h1>
           <a href={props.url} target="__blank">
             <div className="github-link">
-              <p>siddhantprateek/archvote</p>
+              <p>siddhantprateek/great-escape</p>
             </div>
           </a>
           <a href={`${props.url}/issues`} target="__blank">
