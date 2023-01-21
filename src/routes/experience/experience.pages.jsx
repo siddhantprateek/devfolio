@@ -1,4 +1,5 @@
 import React from "react";
+import { ExperienceList } from "../../components";
 import "./experience.styles.css";
 // import CountUp from 'react-countup';
 const NoData = () => {
@@ -16,7 +17,8 @@ class Experience extends React.Component {
           <h1 className="exp-head-back">Places Where I have worked...</h1>
           <h1 className="exp-head-front">Experiences</h1>
         </div>
-        <NoData />
+        <ExperienceList/>
+        {/* <NoData /> */}
         <div className="exp-div">
           <h1 className="exp-head-back">Hackathons</h1>
           <h1 className="exp-head-front">Hackathons</h1>

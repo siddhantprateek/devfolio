@@ -1,0 +1,10 @@
+.exp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
