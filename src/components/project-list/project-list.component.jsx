@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const ProjectList = () => (
   <div className="project-list-div">
     <div className="project-list">
-      {Projects.map((project) => (
+      {Projects.reverse().map((project) => (
         <Link to={`/projects/${project.route}`}>
             <ProjectCard
               key={project.id}
