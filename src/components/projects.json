@@ -34,14 +34,23 @@
     "techlist": ["React", "Rest API", "NodeJs", "ExpressJs", "MongoDB", "Auth0"]
   },
   {
-    "id": 4,
-    "project_name": "Klimate",
+    "id": 10,
+    "project_name": "Xester",
     "route": "project4",
-    "details": "This web application gives support to the people who are in need during the climate crisis. Providing valuable survival suggestions.",
-    "url": "https://github.com/siddhantprateek/klimate",
-    "thumbnail": "https://camo.githubusercontent.com/6237fb2bbf482decbb3258825c52b918706b84b5fc3cdfd25351a620fc5dc75a/68747470733a2f2f692e696d6775722e636f6d2f6c7552476d4e432e706e67",
-    "techlist": ["Ruby", "Rails", "PostgresQL"]
-},
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+    "url": "https://github.com/siddhantprateek/xester",
+    "thumbnail": "https://i.imgur.com/bt8i6saduh.png",
+    "techlist": [
+        "Blockchain",
+        "React",
+        "Typescript",
+        "Go/Golang",
+        "Hyperledger/Fabric",
+        "Docker",
+        "Kubernetes",
+        "Circle CI"
+      ]
+  },
   {
     "id": 5,
     "project_name": "Netflux",
@@ -61,10 +70,10 @@
   },
   {
     "id": 6,
-    "project_name": "Rteach",
+    "project_name": "Mentorhunt",
     "route": "project6",
     "details": "A rating system to rate and review teacher, place to know and learn from best teachers.",
-    "url": "https://github.com/siddhantprateek/rteach",
+    "url": "https://github.com/siddhantprateek/mentorhunt",
     "thumbnail": "https://i.imgur.com/koFLm1y.png",
     "techlist": [
         "React",
@@ -91,6 +100,46 @@
         "Auth0",
         "MongoDB",
         "Prisma"
+      ]
+  },
+  {
+    "id": 8,
+    "project_name": "Networkpoll",
+    "route": "project8",
+    "details": "NetworkPoll is Ethereum network based E2E secure voting system using Cloud and Blockchain to maintain voter confidentiality.",
+    "url": "https://github.com/siddhantprateek/networkpoll",
+    "thumbnail": "https://github.com/siddhantprateek/networkpoll/raw/master/assets/architecture/NEPOLL_ARCH.png",
+    "techlist": [
+        "React",
+        "React Native",
+        "NodeJs",
+        "Solidity",
+        "ExpressJs",
+        "Polygon",
+        "Circle CI",
+        "Prometheus",
+        "Grafana",
+        "Docker",
+        "Python"
+      ]
+  },
+  {
+    "id": 9,
+    "project_name": "Chainsaw",
+    "route": "project9",
+    "details": "Chainsaw is a application that processes Medical DICOM files and store meta-data over decentrialized private blockchain network.",
+    "url": "https://github.com/siddhantprateek/chainsaw",
+    "thumbnail": "https://github.com/siddhantprateek/chainsaw/raw/master/assets/chainsaw.png",
+    "techlist": [
+        "React",
+        "Typescript",
+        "Truffle",
+        "NodeJs",
+        "GraphQL",
+        "Python",
+        "Solidity",
+        "Hyperledger/Besu",
+        "Ethereum"
       ]
   }
 ]
