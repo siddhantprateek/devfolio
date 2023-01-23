@@ -1,10 +1,10 @@
-.exp-container {
+.hack-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 5rem;
 }
-.experience-list {
+.hack-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

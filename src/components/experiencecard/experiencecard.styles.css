@@ -3,11 +3,11 @@
     display: flex;
     align-items: center;
     width: 25rem;
-    background-color: #845FCF;
     margin: 1rem;
-    border: 2px solid #845FCF;
-    transition: all .2s;
+    border: 2px solid transparent;
+    transition: all .5s;
     cursor: pointer;
+    border-radius: 10px;
 }
 .exp-icon {
     height: 4rem;
@@ -30,4 +30,5 @@
 .experience-card:hover {
     border: 2px solid white;
     border-color: white;
+    transform: scale(1.05);
 }

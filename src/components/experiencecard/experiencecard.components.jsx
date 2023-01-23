@@ -1,14 +1,16 @@
 import React from 'react'
-import { AVIYEL } from '../../assets/expicon';
 import './experiencecard.styles.css';
 
-const Experiencecard = () => {
+const Experiencecard = (props) => {
   return (
-    <div className='experience-card'>
-        <img src={AVIYEL} className="exp-icon" alt="aviyel" />
+    <div className='experience-card' 
+    style={{ 
+      backgroundColor: props.color,
+       }} >
+        <img src={props.image} className="exp-icon" alt="comp-name" />
         <div className="exp-content">
-            <h2>Open Source Developer / Tech Writer</h2>
-            <p>Aviyel</p>
+            <h2>{props.position}</h2>
+            <p>{props.company_name}</p>
         </div>
     </div>
   )

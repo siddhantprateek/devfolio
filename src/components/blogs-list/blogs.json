@@ -26,5 +26,20 @@
         "details": "Application monitoring tools are required to check whether the application is working and performing properly or not.",
         "url": "https://blog.goupaz.com/posts/post07/apache-skywalking-and-its-monitoring-ui/",
         "thumbnail":"https://i.imgur.com/bxF5n3Q.png"
+    },
+    {
+        "id": 5,
+        "title": "What are the requirements required to run Medusa?",
+        "details": "Medusa is an open-source headless commerce solution with a complete eCommerce workflow. It provides most of the...",
+        "url": "https://aviyel.com/post/3238/what-are-the-requirements-required-to-run-medusa",
+        "thumbnail":"https://aviyel.com/cdn-cgi/image/format=auto/assets/uploads/files/1652326887675-9-resized.png"
+    },
+    {
+        "id": 6,
+        "title": "How to Deploy Docz in Netlify?",
+        "details": "Netlify makes hosting websites really very easy for developers, and it's scalable and extremely secure. This blog will show you exactly how to deploy your Docz site on Netlify. ",
+        "url": "https://aviyel.com/post/2891/how-to-deploy-docz-in-netlify",
+        "thumbnail":"https://aviyel.com/cdn-cgi/image/format=auto/assets/uploads/files/1649256240691-image-from-ios-resized.png"
     }
+
 ]
