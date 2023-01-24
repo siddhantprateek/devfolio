@@ -1,0 +1,1 @@
+export { default as PROIMAGE } from './pro-image.png'

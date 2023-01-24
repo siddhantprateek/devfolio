@@ -1,6 +1,7 @@
 import './home.style.css'
 import React from 'react';
 import Type from './type.component';
+import { PROIMAGE } from '../../assets/picture';
 class Home extends React.Component{
     render(){
         const resumeURL= "https://docs.google.com/document/d/12Uty58jaTsly_6NcdIpDcYLI3VwMSoId6kj34ng4Z2M/edit?usp=sharing"
@@ -28,7 +29,7 @@ class Home extends React.Component{
                     </a>
                 </div>
                 <div className="pro-div">    
-                    <img className="profile-img" src={`https://github.com/siddhantprateek/devfolio/blob/master/src/assets/icons/PRO.png?raw=true`} alt="" />
+                    <img className="profile-img" src={PROIMAGE} alt="" />
                 </div>                
             </div>
         )
