@@ -4,3 +4,5 @@ export { default as ExperienceList } from './experiencelist/experiencelist.compo
 export { default as ExperienceCard } from './experiencecard/experiencecard.components';
 export { default as HackathonCard } from './hackathoncard/hackathoncard.components';
 export { default as HackathonList } from './hackathonlist/hackathonlist.components';
+export { default as CommunityCard } from './communitycard/communitycard.components';
+export { default as CommunityList } from './communitylist/communitylist.components';

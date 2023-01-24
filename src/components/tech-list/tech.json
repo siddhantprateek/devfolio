@@ -77,8 +77,23 @@
   },
   {
     "id": "18",
-    "techname": "Prisma",
+    "techname": "Prisma (ORM)",
     "link": "https://i.imgur.com/Z2EYaql.png"
+  },
+  {
+    "id": "19",
+    "techname": "Kubernetes",
+    "link": "https://img.icons8.com/color/48/000000/kubernetes.png"
+  },
+  {
+    "id": "20",
+    "techname": "Prometheus",
+    "link": "https://img.icons8.com/fluency/96/null/prometheus-app.png"
+  },
+  {
+    "id": "21",
+    "techname": "Grafana",
+    "link": "https://img.icons8.com/fluency/96/null/grafana.png"
   }
 ]
 

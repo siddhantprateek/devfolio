@@ -1,14 +1,14 @@
 import React from "react";
-import { ExperienceList, HackathonList } from "../../components";
+import { CommunityList, ExperienceList, HackathonList } from "../../components";
 import "./experience.styles.css";
 // import CountUp from 'react-countup';
-const NoData = () => {
-  return (
-    <div className="nodata">
-      <p>No Data Added</p>
-    </div>
-  );
-};
+// const NoData = () => {
+//   return (
+//     <div className="nodata">
+//       <p>No Data Added</p>
+//     </div>
+//   );
+// };
 class Experience extends React.Component {
   render() {
     return (
@@ -29,7 +29,8 @@ class Experience extends React.Component {
           <h1 className="exp-head-back">Worked with</h1>
           <h1 className="exp-head-front">Communities</h1>
         </div>
-        <NoData />
+        <CommunityList/>
+        {/* <NoData /> */}
       </div>
     );
   }

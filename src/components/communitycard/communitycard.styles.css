@@ -1,4 +1,4 @@
-.hack-card {
+.community-card {
     padding: .5rem;
     display: flex;
     align-items: center;
@@ -9,26 +9,25 @@
     cursor: pointer;
     border-radius: 10px;
 }
-.hack-icon {
-    height: 7rem;
-    width: 7rem;
-    border-radius: 10px;
+.community-icon {
+    height: 4rem;
+    width: 4rem;
 }
 
-.hack-content {
+.community-content {
     padding: 0 2rem;
 }
-.hack-content h2 {
+.community-content h2 {
     font-size: 1.2rem;
     font-weight: 500;
 }
 
-.hack-content p {
+.community-content p {
     font-weight: 700;
     margin-top: -1rem;
 }
 
-.hack-card:hover {
+.community-card:hover {
     border: 2px solid white;
     border-color: white;
     transform: scale(1.05);

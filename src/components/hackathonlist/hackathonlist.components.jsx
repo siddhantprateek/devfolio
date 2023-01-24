@@ -16,15 +16,21 @@ let Hackathons = [
         font_color: "white"
     },
     {
-        color: "#fdda90",
-        image: "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/064/961/datas/medium.png",
-        title: "Wild Hacks II",
+        color: "#f7bb24",
+        image: "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/192/067/datas/medium.png",
+        title: "A Hack A Day 2",
         font_color: "#000000"
     },
     {
         color: "#f4ecf3",
         image: "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/006/140/datas/medium.png",
         title: "Mental Health Hacks II",
+        font_color: "#000000"
+    },
+    {
+        color: "#cfe6ea",
+        image: "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/001/991/262/datas/medium.png",
+        title: "StepZen GraphQL Challenge",
         font_color: "#000000"
     },
 

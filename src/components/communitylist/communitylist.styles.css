@@ -1,0 +1,11 @@
+.community-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.community-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
