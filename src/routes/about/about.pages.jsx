@@ -11,12 +11,18 @@ class About extends React.Component {
             <div className="about-content">
               <h1>About</h1>
               <p>
-                👋 Hi, I'm Siddhant Prateek Mahanayak, currently a junior at
-                Kalinga Institute of Industrial technology pursuing {" "}
-                <b>Computer Science and Engineering</b>. I'm passionate
-                about Cloud and Blockchain Technology. I'm an also
-                open-source enthusiast and love learning from open source
-                communities and giving back the same.
+                👋 Hi, Greetings! I'm Siddhant Prateek Mahanayak, a <b>Computer 
+                Science and Engineering</b> junior at Kalinga Institute of 
+                Industrial Technology. My passion lies in exploring the 
+                fascinating worlds of Cloud and Blockchain Technology. 
+                As an avid supporter of the open-source movement, 
+                I am always eager to learn and gain knowledge from open-source 
+                communities. Moreover, I am a strong believer in contributing back 
+                to these communities and sharing my knowledge with others.
+
+                Overall, I am committed to my passion for technology, and I 
+                look forward to exploring and contributing to the world 
+                of open-source development.
               </p>
             </div>
             <div className="institute-content">
