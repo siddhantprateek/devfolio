@@ -11,7 +11,7 @@ class About extends React.Component {
             <div className="about-content">
               <h1>About</h1>
               <p>
-                👋 Hi, Greetings! I'm Siddhant Prateek Mahanayak, a <b>Computer 
+                👋 Hi! I'm Siddhant Prateek Mahanayak, a <b>Computer 
                 Science and Engineering</b> junior at Kalinga Institute of 
                 Industrial Technology. My passion lies in exploring the 
                 fascinating worlds of Cloud and Blockchain Technology. 
