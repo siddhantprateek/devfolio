@@ -22,7 +22,7 @@ const Project11 = (props) => {
         <h1>Link</h1>
         <a href={props.url} target="__blank">
           <div className="github-link">
-            <p>the-Origin-Labs/{props.project_name}</p>
+            <p>siddhantprateek/{props.project_name}</p>
           </div>
         </a>
         <a href={`${props.url}/issues`} target="__blank">

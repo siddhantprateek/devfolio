@@ -9,5 +9,5 @@ export { default as Project8 } from './project8';
 export { default as Project9 } from './project9';
 export { default as Project10 } from './project10';
 export { default as Project11 } from './project11';
-export { default as Project12 } from './project12';
+// export { default as Project12 } from './project12';
 

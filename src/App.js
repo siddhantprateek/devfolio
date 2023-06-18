@@ -3,7 +3,7 @@ import { Header } from './components/header/header.components';
 import { Footer } from './components/footer/footer.components';
 import {Home, About, Projects, Experience, Blogs } from './routes';
 
-import { Project1, Project2, Project3, Project4, Project5, Project6, Project7,Project8, Project9, Project10, Project11, Project12 } from './components/project-profile'
+import { Project1, Project2, Project3, Project4, Project5, Project6, Project7,Project8, Project9, Project10, Project11 } from './components/project-profile'
 import data from './components/projects.json'
 import { Route, Routes } from 'react-router-dom';
 import React from 'react';
