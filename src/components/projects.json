@@ -22,7 +22,15 @@
     "details": "Great Escape is a travel planner website. It recommends some features which allows to plan every aspect of your trip, from transport and accommodation to booking hotels, spending time in water sports. It shows numerous booking options, price details, and provides you the option to create your own custom-made travel bucket list.",
     "url": "https://github.com/siddhantprateek/great-escape",
     "thumbnail": "https://github.com/siddhantprateek/great-escape/raw/main/assets/preview-ge.png",
-    "techlist": ["React", "Rest API", "NodeJs", "ExpressJs", "Auth0", "GraphQL", "MongoDB"]
+    "techlist": [
+      "React",
+      "Rest API",
+      "NodeJs",
+      "ExpressJs",
+      "Auth0",
+      "GraphQL",
+      "MongoDB"
+    ]
   },
   {
     "id": 3,
@@ -31,7 +39,14 @@
     "details": "Celuxe offers a wide options for the students to avail the resources. It increases SNAP enrollment for eligible students based on the income of household, improves accessibility of nutritious food on campus, raises awareness of the existing campus resources, and many more.",
     "url": "https://github.com/siddhantprateek/celuxe",
     "thumbnail": "https://github.com/siddhantprateek/celuxe/raw/main/assets/preview.png",
-    "techlist": ["React", "Rest API", "NodeJs", "ExpressJs", "MongoDB", "Auth0"]
+    "techlist": [
+      "React",
+      "Rest API",
+      "NodeJs",
+      "ExpressJs",
+      "MongoDB",
+      "Auth0"
+    ]
   },
   {
     "id": 4,
@@ -40,15 +55,16 @@
     "details": "Netflux, It is a Neftlix Clone, made using React, Rest API. ",
     "url": "https://github.com/siddhantprateek/netflux",
     "thumbnail": "https://i.imgur.com/wOVQkYE.png",
-    "techlist": [  "React",
-        "Redux",
-        "Rest API",
-        "NodeJs",
-        "ExpressJs",
-        "Mongoose",
-        "GraphQL",
-        "Firebase"
-      ]
+    "techlist": [
+      "React",
+      "Redux",
+      "Rest API",
+      "NodeJs",
+      "ExpressJs",
+      "Mongoose",
+      "GraphQL",
+      "Firebase"
+    ]
   },
   {
     "id": 5,
@@ -58,14 +74,14 @@
     "url": "https://github.com/siddhantprateek/mentorhunt",
     "thumbnail": "https://i.imgur.com/koFLm1y.png",
     "techlist": [
-        "React",
-        "Rest API",
-        "NodeJs",
-        "ExpressJs",
-        "Auth0",
-        "Mongoose",
-        "Calendly API"
-      ]
+      "React",
+      "Rest API",
+      "NodeJs",
+      "ExpressJs",
+      "Auth0",
+      "Mongoose",
+      "Calendly API"
+    ]
   },
   {
     "id": 6,
@@ -75,14 +91,14 @@
     "url": "https://github.com/siddhantprateek/vibee",
     "thumbnail": "https://i.imgur.com/bt8i6uh.png",
     "techlist": [
-        "React",
-        "Random Data API",
-        "NodeJs",
-        "ExpressJs",
-        "Auth0",
-        "MongoDB",
-        "Prisma"
-      ]
+      "React",
+      "Random Data API",
+      "NodeJs",
+      "ExpressJs",
+      "Auth0",
+      "MongoDB",
+      "Prisma"
+    ]
   },
   {
     "id": 7,
@@ -92,18 +108,18 @@
     "url": "https://github.com/siddhantprateek/networkpoll",
     "thumbnail": "https://github.com/siddhantprateek/networkpoll/raw/master/assets/architecture/NEPOLL_ARCH.png",
     "techlist": [
-        "React",
-        "React Native",
-        "NodeJs",
-        "Solidity",
-        "ExpressJs",
-        "Polygon",
-        "Circle CI",
-        "Prometheus",
-        "Grafana",
-        "Docker",
-        "Python"
-      ]
+      "React",
+      "React Native",
+      "NodeJs",
+      "Solidity",
+      "ExpressJs",
+      "Polygon",
+      "Circle CI",
+      "Prometheus",
+      "Grafana",
+      "Docker",
+      "Python"
+    ]
   },
   {
     "id": 8,
@@ -113,16 +129,16 @@
     "url": "https://github.com/siddhantprateek/chainsaw",
     "thumbnail": "https://github.com/siddhantprateek/chainsaw/raw/master/assets/chainsaw.png",
     "techlist": [
-        "React",
-        "Typescript",
-        "Truffle",
-        "NodeJs",
-        "GraphQL",
-        "Python",
-        "Solidity",
-        "Hyperledger/Besu",
-        "Ethereum"
-      ]
+      "React",
+      "Typescript",
+      "Truffle",
+      "NodeJs",
+      "GraphQL",
+      "Python",
+      "Solidity",
+      "Hyperledger/Besu",
+      "Ethereum"
+    ]
   },
   {
     "id": 9,
@@ -132,11 +148,11 @@
     "url": "https://github.com/siddhantprateek/go-gpt",
     "thumbnail": "https://user-images.githubusercontent.com/43869046/229339476-4bb3d0fa-f03c-4142-b825-7d7cc8ef3003.png",
     "techlist": [
-        "Go/Golang",
-        "OpenAI",
-        "Docker",
-        "Cobra"
-      ]
+      "Go/Golang",
+      "OpenAI",
+      "Docker",
+      "Cobra"
+    ]
   },
   {
     "id": 10,
@@ -146,16 +162,16 @@
     "url": "https://github.com/the-Origin-Labs/landate/",
     "thumbnail": "https://github.com/The-Origin-Labs/landate/raw/main/assets/banner-landate.png",
     "techlist": [
-        "Go/GoFiber/Echo",
-        "ReactJs",
-        "PostgresQL",
-        "MongoDB",
-        "Blockchain",
-        "Microservices",
-        "Consul",
-        "Prometheus",
-        "Grafana"
-      ]
+      "Go/GoFiber/Echo",
+      "ReactJs",
+      "PostgresQL",
+      "MongoDB",
+      "Blockchain",
+      "Microservices",
+      "Consul",
+      "Prometheus",
+      "Grafana"
+    ]
   },
   {
     "id": 11,
@@ -165,12 +181,12 @@
     "url": "https://github.com/siddhantprateek/opendesk",
     "thumbnail": "https://github.com/siddhantprateek/opendesk/raw/master/assets/opendesk.png",
     "techlist": [
-        "Go/GoFiber/Echo",
-        "React/Typescript",
-        "PostgresQL",
-        "MongoDB",
-        "Microservices",
-        "gRPC"
-      ]
+      "Go/GoFiber/Echo",
+      "React/Typescript",
+      "PostgresQL",
+      "MongoDB",
+      "Microservices",
+      "gRPC"
+    ]
   }
 ]
