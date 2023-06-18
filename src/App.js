@@ -30,7 +30,7 @@ class App extends React.Component {
           <Route exact path="/projects/project9" element={<Project9 {...data[8]} />} />
           <Route exact path="/projects/project10" element={<Project10 {...data[9]} />} />
           <Route exact path="/projects/project11" element={<Project11 {...data[10]} />} />
-          <Route exact path="/projects/project12" element={<Project12 {...data[11]} />} />
+          {/* <Route exact path="/projects/project12" element={<Project12 {...data[11]} />} /> */}
         </Routes>
         <Footer/>
       </div>
