@@ -1,1 +1,1 @@
-export { default as PROIMAGE } from './pro-image.png'
+export { default as PROIMAGE } from './proimage.png'
