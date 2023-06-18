@@ -34,24 +34,6 @@
     "techlist": ["React", "Rest API", "NodeJs", "ExpressJs", "MongoDB", "Auth0"]
   },
   {
-    "id": 10,
-    "project_name": "Xester",
-    "route": "project4",
-    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
-    "url": "https://github.com/siddhantprateek/xester",
-    "thumbnail": "https://i.imgur.com/ofAjztf.png",
-    "techlist": [
-        "Blockchain",
-        "React",
-        "Typescript",
-        "Go/Golang",
-        "Hyperledger/Fabric",
-        "Docker",
-        "Kubernetes",
-        "Circle CI"
-      ]
-  },
-  {
     "id": 5,
     "project_name": "Netflux",
     "route": "project5",
@@ -140,6 +122,55 @@
         "Solidity",
         "Hyperledger/Besu",
         "Ethereum"
+      ]
+  },
+  {
+    "id": 10,
+    "project_name": "Go-GPT",
+    "route": "project10",
+    "details": "A simple way to communicate with OpenAI using your CLI.",
+    "url": "https://github.com/siddhantprateek/go-gpt",
+    "thumbnail": "https://user-images.githubusercontent.com/43869046/229339476-4bb3d0fa-f03c-4142-b825-7d7cc8ef3003.png",
+    "techlist": [
+        "Go/Golang",
+        "OpenAI",
+        "Docker",
+        "Cobra"
+      ]
+  },
+  {
+    "id": 11,
+    "project_name": "Landate",
+    "route": "project11",
+    "details": "The lack of secure property rights in India is a significant problem, particularly for the urban poor. Disputes over land ownership slow down real estate transactions, and those without official documents face barriers to accessing financial and government services. Our Application is created to facilitate discussions between individuals and government officials to update land records and establish ownership. We provide education on property rights and offer resources for obtaining legal assistance. By addressing these issues, the project would help promote greater security and stability in property ownership in India.",
+    "url": "https://github.com/the-Origin-Labs/landate/",
+    "thumbnail": "https://github.com/The-Origin-Labs/landate/raw/main/assets/banner-landate.png",
+    "techlist": [
+        "Go/GoFiber/Echo",
+        "ReactJs",
+        "PostgresQL",
+        "MongoDB",
+        "Blockchain",
+        "Microservices",
+        "Consul",
+        "Prometheus",
+        "Grafana"
+      ]
+  },
+  {
+    "id": 12,
+    "project_name": "Opendesk",
+    "route": "project12",
+    "details": "Opendesk is a platform implemented to increase productivity for employers by giving them a wide range of tools to effectively manage their duties. One of this app's primary advantages is its capacity to reward employers for tasks performed, which promotes a healthy work atmosphere and motivates employees to provide their best effort. Also, Opendesk is intended to assist staff members in taking care of their mental health and lowering their stress levels at work, both of which may have a substantial influence on their general well-being and productivity.",
+    "url": "https://github.com/siddhantprateek/opendesk",
+    "thumbnail": "https://github.com/siddhantprateek/opendesk/raw/master/assets/opendesk.png",
+    "techlist": [
+        "Go/GoFiber/Echo",
+        "React/Typescript",
+        "PostgresQL",
+        "MongoDB",
+        "Microservices",
+        "gRPC"
       ]
   }
 ]
