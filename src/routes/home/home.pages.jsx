@@ -4,7 +4,7 @@ import Type from './type.component';
 import { PROIMAGE } from '../../assets/picture';
 class Home extends React.Component{
     render(){
-        const resumeURL= "https://docs.google.com/document/d/14TPuxz4bf1A1I0NofNUZLxg0ar3zQj-HaONUtfOxW3E/edit?usp=sharing"
+        const resumeURL= "https://drive.google.com/file/d/1kCooOZkNvFUjGi29WybVyw8B46yCwy96/view?usp=sharing"
         return(
             <div className="home">
                 <div className="content">

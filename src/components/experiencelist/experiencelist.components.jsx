@@ -1,9 +1,21 @@
 import React from 'react'
-import { AVIYEL, GOUP } from '../../assets/expicon';
+import { AVIYEL, GOUP, LFX, ABBLOR } from '../../assets/expicon';
 import Experiencecard from '../experiencecard/experiencecard.components';
 import "./experiencelist.styles.css";
 
 let Experience = [
+  {
+    image: LFX,
+    position: "LFX Mentee",
+    company_name: "The Linux Foundation",
+    color: "#e3e3e3"
+  },
+  {
+    image: ABBLOR,
+    position: "Full Stack Developer",
+    company_name: "Abblor Tech",
+    color: "#000000"
+  },
   {
     image: AVIYEL,
     position: "Open Source Developer / Tech Writer",
@@ -16,6 +28,7 @@ let Experience = [
     company_name: "GOUP Community",
     color: "#000000"
   },
+
 ]
 
 const Experiencelist = () => {
